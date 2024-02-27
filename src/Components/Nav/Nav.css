@@ -1,0 +1,27 @@
+.Nav {
+  display: flex;
+  position: fixed;
+  height: 85px;
+  width: 100%;
+  top: 0;
+  background-color: #111;
+  align-items: center;
+  justify-content: space-around;
+  object-fit: contain;
+}
+
+.Nav_logo {
+  height: 60px;
+  object-fit: contain;
+}
+
+.Nav_links {
+  display: flex;
+  list-style-type: none;
+}
+
+.Nav_link {
+  color: white;
+  margin-right: 20px;
+  cursor: pointer;
+}

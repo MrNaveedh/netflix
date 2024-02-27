@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.row {
+  color: white;
+  margin: 20px;
+}
+
+.row_posters {
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  padding: 20px;
+  scrollbar-width: thin; /* or auto */
+  scrollbar-color: #111 #111;
+  scroll-behavior: smooth; /* Add smooth scrolling behavior */
+}
+
+.sizeDec {
+  width: 100%;
+  max-height: 200px;
+  margin-right: 10px;
+  object-fit: contain;
+  transition: 450ms;
+}
+
+.sizeInc {
+  margin-top: 85px;
+  width: 100%;
+  max-height: 300px;
+  margin-right: 10px;
+  object-fit: contain;
+  transition: 450ms;
+}
+
+.sizeDec:hover {
+  transform: scale(1.1);
+}
+
+.sizeInc:hover {
+  transform: scale(1.1);
+}
+
+.youtube {
+  display: flex;
+  justify-content: center;
+}
